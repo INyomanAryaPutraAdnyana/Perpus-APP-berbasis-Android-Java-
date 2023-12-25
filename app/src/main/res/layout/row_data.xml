@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#F0CAA3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="13dp"
+        android:background="#fff"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/buku1" />
+        <TextView
+            android:id="@+id/listID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/listJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="-100dp"
+            android:textColor="@color/black"
+            android:text="Judul Buku"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/listNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="125dp"
+            android:text="Nama"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/listTglPinjam"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="125dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:text="Tanggal Pinjam"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/listStatus"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:text="Status"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
